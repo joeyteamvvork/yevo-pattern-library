@@ -1,0 +1,86 @@
+// Settings
+//
+// Common variables for quick editing of components.
+//
+// ==================================================
+
+// Base
+// --------------------
+$base-site-width:						1000px;
+
+$base-color-white:					#fff;
+$base-color-black:					#000;
+$base-color-gray:						#999;
+$base-color-light-gray:			#f2f2f2;
+$base-color-red:						#af272f;
+$base-color-orange:					#eda900;
+$base-color-green:					#6ca438;
+$base-color-blue:						#0099a8;
+$base-color-brown:					#4c3d29;
+
+$base-body-background:			$base-color-white;
+
+$base-baseline:							6px;
+$base-gutter:								20px;
+
+$base-font-family:					'Aleo', serif;
+$base-font-weight:					400;
+$base-font-size:						14px;
+$base-text-color:						$base-color-brown;
+$base-line-height:					1.42em;
+
+
+// Typography
+// --------------------
+$header-font-weight:				400;
+$header-alt-font-weight:		300;
+
+$header-font-style:					normal;
+$header-alt-font-style:			italic;
+
+$header-1-font-size: 				2.435rem;
+$header-2-font-size: 				2.435rem;
+$header-3-font-size: 				1.725rem;
+$header-4-font-size: 				1.3rem;
+$header-5-font-size: 				1.3rem;
+$header-6-font-size: 				0.86rem;
+$blockquote-font-size: 			1.2rem;
+$paragraph-font-size: 			1.15rem;
+$text-small-font-size: 			0.86rem;
+
+$header-1-line-height: 			1.25em;
+$header-2-line-height: 			1.25em;
+$header-3-line-height: 			1.25em;
+$header-4-line-height: 			1.25em;
+$header-5-line-height: 			1.25em;
+$header-6-line-height: 			1.25em;
+$paragraph-line-height: 		1.45em;
+
+$header-1-margin:						($base-baseline * 4);
+$header-2-margin:						($base-baseline * 4);
+$header-3-margin:						($base-baseline * 3);
+$header-4-margin:						($base-baseline * 2);
+$header-5-margin:						($base-baseline * 1);
+$header-6-margin:						($base-baseline * 1);
+
+$link-color:								$base-color-orange;
+
+
+// Lists
+// --------------------
+$list-padding:	$base-gutter*2;
+
+
+// Tabs
+// --------------------
+$tab-nav-item-padding: 			$base-baseline ($base-baseline * 2);
+$tab-nav-item-background:		$base-body-background;
+$tab-nav-item-color: 				$base-text-color;
+
+
+// Breakpoints
+// --------------------
+$breakpoint-xs:		new-breakpoint(max-width 480px 4);
+$breakpoint-sm:		new-breakpoint(max-width 480px 6);
+$breakpoint-md:		new-breakpoint(max-width 480px 10);
+$breakpoint-lg:		new-breakpoint(max-width 480px 10);

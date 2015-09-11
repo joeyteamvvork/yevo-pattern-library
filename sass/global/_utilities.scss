@@ -1,0 +1,156 @@
+// Utilities
+//
+// ==================================================
+
+// Aligns
+// --------------------
+.align-right { text-align: right; }
+.align-left { text-align: left; }
+.align-center { text-align: center; }
+.align-justify { text-align: justify; }
+
+
+// Colors
+// --------------------
+.white { color: $base-color-white; }
+.black { color: $base-color-black; }
+.gray { color: $base-color-gray; }
+.light-gray { color: $base-color-light-gray; }
+.red { color: $base-color-red; }
+.orange { color: $base-color-orange; }
+.green { color: $base-color-green; }
+.blue { color: $base-color-blue; }
+.brown { color: $base-color-brown; }
+
+
+// Text & Copy
+// --------------------
+small,
+.text-small { font-size: $text-small-font-size; }
+
+.transform-none { text-transform: none; }
+.uppercase { text-transform: uppercase; }
+.capitalize { text-transform: capitalize; }
+.lowercase { text-transform: lowercase; }
+.strike { text-transform: line-through; }
+
+
+// Wraps & White Space
+// --------------------
+.nowrap { white-space: nowrap; }
+.wordwrap { word-wrap: break-word; }
+.breakall { word-break: break-all; }
+
+
+// Backgrounds
+// --------------------
+.bg-white { background-color: $base-color-white; }
+.bg-black { background-color: $base-color-black; }
+.bg-gray { background-color: $base-color-gray; }
+.bg-light-gray { background-color: $base-color-light-gray; }
+.bg-red { background-color: $base-color-red; }
+.bg-orange { background-color: $base-color-orange; }
+.bg-green { background-color: $base-color-green; }
+.bg-blue { background-color: $base-color-blue; }
+.bg-brown { background-color: $base-color-brown; }
+
+
+// Outlines & Borders
+// --------------------
+.outline { outline: 1px solid; }
+
+.b { border: 1px solid; }
+.b-t { border: 0; border-top: 1px solid; }
+.b-b { border: 0; border-bottom: 1px solid; }
+.b-tb { border: 0; border-top: 1px solid; border-bottom: 1px solid; }
+.b-l { border: 0; border-left: 1px solid; }
+.b-r { border: 0; border-right: 1px solid; }
+.b-lr { border: 0; border-left: 1px solid; border-right: 1px solid; }
+
+.b-white { border-color: $base-color-white; }
+.b-black { border-color: $base-color-black; }
+.b-gray { border-color: $base-color-gray; }
+.b-light-gray { border-color: $base-color-light-gray; }
+.b-red { border-color: $base-color-red; }
+.b-orange { border-color: $base-color-orange; }
+.b-green { border-color: $base-color-green; }
+.b-blue { border-color: $base-color-blue; }
+.b-brown { border-color: $base-color-brown; }
+
+.b-dotted { border-style: dotted; }
+.b-dashed { border-style: dashed; }
+
+
+// Radii
+// --------------------
+.rad-0 { border-radius: 0; }
+
+
+// Margins & Belows
+// --------------------
+.mar-0 { margin: 0; }
+.mar-1 { margin: ($base-baseline * 1); }
+.mar-2 { margin: ($base-baseline * 2); }
+.mar-3 { margin: ($base-baseline * 3); }
+.mar-4 { margin: ($base-baseline * 4); }
+.mar-5 { margin: ($base-baseline * 5); }
+.mar-6 { margin: ($base-baseline * 6); }
+.mar-t0 { margin-top: 0; }
+.mar-b0 { margin-bottom: 0; }
+.mar-tb0 { margin-top: 0; margin-bottom: 0; }
+.mar-l0 { margin-left: 0; }
+.mar-r0 { margin-right: 0; }
+.mar-lr0 { margin-left: 0; margin-right: 0; }
+
+.below-1 { margin-bottom: ($base-baseline * 1); }
+.below-2 { margin-bottom: ($base-baseline * 2); }
+.below-3 { margin-bottom: ($base-baseline * 3); }
+.below-4 { margin-bottom: ($base-baseline * 4); }
+.below-5 { margin-bottom: ($base-baseline * 5); }
+.below-6 { margin-bottom: ($base-baseline * 6); }
+
+
+// Paddings
+// --------------------
+.pad-0 { padding: 0; }
+.pad-1 { padding: ($base-baseline * 1); }
+.pad-2 { padding: ($base-baseline * 2); }
+.pad-3 { padding: ($base-baseline * 3); }
+.pad-4 { padding: ($base-baseline * 4); }
+.pad-5 { padding: ($base-baseline * 5); }
+.pad-6 { padding: ($base-baseline * 6); }
+.pad-t0 { padding-top: 0; }
+.pad-b0 { padding-bottom: 0; }
+.pad-tb0 { padding-top: 0; padding-bottom: 0; }
+.pad-l0 { padding-left: 0; }
+.pad-r0 { padding-right: 0; }
+.pad-lr0 { padding-left: 0; padding-right: 0; }
+
+
+// Floats
+// --------------------
+.float-left { float: left; }
+.float-right { float: right; }
+.float-none { float: none; }
+
+
+// Clearfix
+// --------------------
+.clear {
+	@include clearfix;
+}
+
+
+// Display & Visibility
+// --------------------
+.invisible { Visibility: hidden; }
+.hide { display: none; }
+.inline { display: inline; }
+.block { display: block; }
+.inline-block { display: inline-block; }
+.overflow-hidden { overflow: hidden; }
+.overflow-ellipsis {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}

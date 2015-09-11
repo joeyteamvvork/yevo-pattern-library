@@ -1,0 +1,28 @@
+// Scaffolding
+//
+// - HTML
+// - Body
+//
+// ==================================================
+
+// HTML
+// --------------------
+html,
+body {
+	min-height: 100%;
+	width: 100%;
+}
+
+// Body
+// --------------------
+body {
+	background: $base-body-background;
+	color: $base-text-color;
+	font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+	font-variant-ligatures: common-ligatures;
+	vertical-align: baseline;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-overflow-scrolling: touch;
+	-ms-overflow-style: -ms-autohiding-scrollbar;
+}
