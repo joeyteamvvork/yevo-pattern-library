@@ -1,0 +1,20 @@
+// Tabs
+//
+// ==================================================
+
+.tab-nav {
+	.tab-nav--item {
+		padding: $tab-nav-item-padding;
+		background: rgba($tab-nav-item-background, 0);
+		color: $tab-nav-item-color;
+
+		&.active {
+			background: $tab-nav-item-background;
+		}
+	}
+
+	li,
+	.tab-nav--item {
+		display: inline-block;
+	}
+}

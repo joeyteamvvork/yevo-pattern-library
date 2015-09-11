@@ -1,0 +1,29 @@
+// Lists
+//
+// - Defaults
+// - Discs
+// - Numbered
+//
+// ==================================================
+
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+
+// Discs
+// --------------------
+.list-style-disc {
+	list-style-type: disc;
+	padding-left: $list-padding;
+}
+
+
+// Decimal
+// --------------------
+.list-style-decimal {
+	list-style-type: decimal;
+	padding-left: $list-padding;
+}

@@ -1,0 +1,93 @@
+// Typography
+//
+// - Headers
+// - Copy
+// - Links
+//
+// ==================================================
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0;
+	font-weight: $header-font-weight;
+	font-style: $header-font-style;
+}
+
+// Headers
+// --------------------
+h1, .h1 {
+	font-size: $header-1-font-size;
+	line-height: $header-1-line-height;
+}
+
+h2, .h2 {
+	font-size: $header-2-font-size;
+	line-height: $header-2-line-height;
+}
+
+h3, .h3 {
+	font-size: $header-3-font-size;
+	line-height: $header-3-line-height;
+}
+
+h4, .h4 {
+	font-size: $header-4-font-size;
+	line-height: $header-4-line-height;
+}
+
+h5, .h5 {
+	font-size: $header-5-font-size;
+	line-height: $header-5-line-height;
+}
+
+h6, .h6 {
+	font-size: $header-6-font-size;
+	line-height: $header-6-line-height;
+}
+
+h1 {
+	margin-bottom: $header-1-margin;
+}
+
+h2 {
+	margin-bottom: $header-2-margin;
+}
+
+h3 {
+	margin-bottom: $header-3-margin;
+	font-weight: $header-alt-font-weight;
+	font-style: $header-alt-font-style;
+}
+
+h4 {
+	margin-bottom: $header-4-margin;
+	text-transform: uppercase;
+}
+
+h5 {
+	margin-bottom: $header-5-margin;
+}
+
+h6 {
+	margin-bottom: $header-6-margin;
+}
+
+
+// Copy
+// --------------------
+blockquote { font-size: $blockquote-font-size; }
+p {
+	font-size: $paragraph-font-size;
+	line-height: $paragraph-line-height;
+}
+
+
+// Links
+// --------------------
+a {
+	color: $link-color;
+	text-decoration: none;
+}
+
+p > a {
+	text-decoration: underline;
+}
